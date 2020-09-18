@@ -14,192 +14,364 @@
 <body class="shower list">
 
     <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
+        <h1>Создание игр на Python</h1>
     </header>
 
-    <section class="slide" id="cover">
-        <h2>Shower Presentation Engine</h2>
-        <p>Brought to you by <a href="https://pepelsbey.net">Vadim Makeev</a></p>
-        <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #cover h2 {
-                margin: 30px 0 0;
-                color: white;
-                text-align: center;
-                font-size: 70px;
-            }
-
-            #cover p {
-                margin: 10px 0 0;
-                text-align: center;
-                color: white;
-                font-style: italic;
-                font-size: 20px;
-            }
-
-            #cover p a {
-                color: white;
-            }
-        </style>
+    <section class="slide">
+        <h2>Python</h2>
+        <p>Простой и удобный язык программирования</p>
+        <ul>
+            <li>Сайты и веб-приложения</li>
+            <li>Научные вычисления</li>
+            <li>Анализ данных, машинное обучение и искусственный интеллект</li>
+            <li>Администрирование</li>
+            <li>Создание игр!</li>
+        </ul>
     </section>
 
     <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
+        <h2>Print</h2>
+        <p>Функция <em>print</em> выводит переданные ей данные на стандартный поток вывода (в терминал).</p>
 
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Code samples</h2>
         <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
+            <code>print('hello, world!')</code>
+            <code>print('У меня', 10, 'пальцев на руках')</code>
         </pre>
     </section>
 
     <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
+        <h2>Математические операторы</h2>
 
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
+        <pre>
+            <code>print(42)</code>
+            <code>print(42 + 21)</code>
+            <code>print(42 - 21)</code>
+            <code>print(42 * 21)</code>
+            <code>print(42 / 21)</code>
+        </pre>
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
+        <h2>Переменная</h2>
+        <p>&mdash; ячейка в оперативной памяти компьютера, у которой есть имя и в которую можно положить значение.</p>
+        <p>Как коробочка со стикером на ней!</p>
+
+        <pre>
+            <code>age = 28</code>
+            <code>print('Мне', age, 'лет')</code>
+            <code>print('В следующем году мне будет', age + 1, 'лет')</code>
+        </pre>
     </section>
 
     <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
+        <h2>Типы данных</h2>
+
+        <ul>
+            <li><strong>int</strong> &mdash; целые числа (42)</li>
+            <li><strong>float</strong> &mdash; вещественные (дробные) числа (4.2)</li>
+            <li><strong>str</strong> &mdash; строки ('42', 'Game Over')</li>
+            <li><strong>bool</strong> &mdash; логическое значение (True / False)</li>
+        </ul>
     </section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
+    <section class="slide">
+        <h2>Операции со строками</h2>
+        
+        <p>Строки можно складывать</p>
+        <pre>
+            <code>print('Как' + ' ' + 'дела?')</code>
+        </pre>
 
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
+        <p>Можно умножать на число</p>
+        <pre>
+            <code>print('hello' * 3)</code>
+        </pre>
     </section>
 
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
+    <section class="slide">
+        <h2>Программа, приветствующая пользователя по имени</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Программа, складывающая два числа</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Превращаем строку в число</h2>
+
+        <pre>
+            <code>string = '42'</code>
+            <code>number = int(string)</code>
+            <code>user_number = int(input())</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №1</h2>
+
+        <p>Пользователь вводит свое имя и фамилию. Программа должна поприветствовать пользователя: <em>Привет, имя фамилия!</em></p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №2</h2>
+
+        <p>Пользователь вводит три числа. Программа должна вывести сумму этих трех чисел.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №3</h2>
+
+        <p>Пользователь вводит три дробных числа. Программа должна вывести сумму этих трех чисел.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №4</h2>
+
+        <p>Пользователь вводит одно число числа. Программа должна вывести предыдущее и следующее за ним в следующем формате:</p>
+        <p>
+            <em>Число предшествующее числу 10 равно 9</em><br>
+            <em>Число следующее за числом 10 равно 11</em>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №5</h2>
+
+        <p>Пользователь вводит свое имя и возраст. Программа должна вывести такую строку:</p>
+        <p>
+            <em>Привет, Артем! Ваш возраст равен 28!</em>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №6</h2>
+
+        <p>Пользователь вводит в программу число x. Программа должна вывести результат выражения x*x - 10*x + 15</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №7</h2>
+
+        <p>В программу вводятся длины катетов прямоугольного треугольника a и b. Программа должна найти и вывести на экран длину его гипотенузы c и периметр p.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №8</h2>
+
+        <p>Даны две целочисленных переменных a и b. Поменяйте значения переменных местами.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №9</h2>
+
+        <p>Известно, что х кг конфет стоит A рублей. Определить, сколько стоит 1 кг и y кг этих же конфет.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №10</h2>
+
+        <p>Даны три точки a, b, c на числовой оси. Точка c расположена между точками a и b. Найти произведение длин отрезков ac и bc.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №11</h2>
+
+        <div class="columns two">
+            <p>В программу вводятся 2 числа a и b. Программа должна вывести результаты всех доступных в Python арифметических операций с этими числами.<br><em># пусть a = 5, b = 2</em></p>
+            
+            <p>
+                <em>Сложение: 7</em><br>
+                <em>Вычитание: 3</em><br>
+                <em>Умножение: 10</em><br>
+                <em>Деление: 2.5</em><br>
+                <em>Целочисленное деление: 2</em><br>
+                <em>Остаток от деления: 1</em><br>
+                <em>Возведение в степень: 25</em>
+            </p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №12</h2>
+
+        <div class="columns two">
+            <p>В программу вводятся 2 числа a и b. Программа должна вывести результаты всех доступных в Python операций сравнения с этими числами.<br><em># пусть a = 5, b = 2</em></p>
+            
+            <p>
+                <em>a > b: True</em><br>
+                <em>a < b: False</em><br>
+                <em>a == b: False</em><br>
+                <em>a != b: True</em><br>
+                <em>a >= b: True</em><br>
+                <em>a <= b: False</em><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Логические операции</h2>
+
+        <pre>
+            <code>a, b, c = 6, 4, 8</code>
+            <code>print(a > b and b > c)</code>
+            <code>print(a > b or b > c)</code>
+            <code>print(not True)</code>
+            <code>print(not a > b)</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Логические операции</h2>
+        <div class="columns two">
+            <table class="striped">
+                <caption><b>and</b></caption>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a and b</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+            <table class="striped">
+                <caption><b>or</b></caption>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a and b</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №13</h2>
+
+        <p>Дано целое число a. Проверить истинность высказывания: "Число a является четным".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №14</h2>
+
+        <p>Дано целое число a. Проверить истинность высказывания: "Число a является нечетным".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №15</h2>
+
+        <p>Даны два целых числа: a, b. Проверить истинность высказывания: "Числа a и b имеют одинаковую четность".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №16</h2>
+
+        <p>Даны три целых числа: a, b, c. Проверить истинность высказывания: "Хотя бы одно из чисел a, b, c положительное".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №17</h2>
+
+        <p>Дано натуральное число. Выведите его последнюю цифру.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №18</h2>
+
+        <p>Дано положительное действительное число x. Выведите его дробную часть.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №19</h2>
+
+        <p>Дано положительное действительное число x. Выведите его первую цифру после десятичной точки.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №20</h2>
+
+        <p>Дано число секунд n на часах. Посчитайте прошедших минут и секунд.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №21</h2>
+
+        <p>С начала суток прошло N секунд (N - целое). Найти количество часов, минут и секунд на электронных часах.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №22</h2>
+
+        <p>Пирожок в столовой стоит a рублей и b копеек. Определите, сколько рублей и копеек нужно заплатить за n пирожков. Программа получает на вход три числа: a, b, n, и должна вывести два числа: стоимость покупки в рублях и копейках.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №23</h2>
+
+        <p>Дано натуральное число. Найдите число десятков в его десятичной записи.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №24</h2>
+
+        <p>Дано двузначное число. Найдите сумму его цифр.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №25</h2>
+
+        <p>Дано трехзначное число. Найдите сумму его цифр.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №26</h2>
+
+        <p>Дано трехзначное число. Проверить истинность высказывания: "Все цифры данного числа различны".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №27</h2>
+
+        <p>Дано трехзначное число. Проверить истинность высказывания: "Цифры данного числа образуют возрастающую или убывающую последовательность".</p>
+    </section>
 
     <div class="progress"></div>
 
